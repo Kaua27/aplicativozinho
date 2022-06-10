@@ -1,0 +1,70 @@
+﻿@page "/cep"
+@using aplicativozinho.Shared.features.cep.models
+@inject HttpClient http
+@inject IToastService toastService
+
+<PageTitle>cep</PageTitle>
+
+<div class="card" style="width: 600px;">
+    <div class="card-body">
+        <h5 class="card-title">Busca de endereço</h5>
+        <form class="row g-2" style="padding-top: 8px; padding-bottom: 15px;">
+            <div class="col-md-6">
+                <input @bind="endereco.cep" type="text" class="form-control" placeholder="Informe um cep" />
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="form-control btn-primary"
+                        @onclick="BuscarEnderecoporcep">
+                    Buscar
+                </button>
+            </div>
+            <div class="col-12">
+                <label for="txtlogradouro" class="form-label">Logradouro</label>
+                <input @bind="endereco.logradouro" class="form-control" type="text" id="txtlogradouro" />
+            </div>
+            <div class="col-6">
+                <label for="txtbairo" class="form-label">Bairro</label>
+                <input @bind="endereco.bairro" class="form-control" type="text" id="txtbairro" />
+            </div>
+            <div class="col-6">
+                <label for="txtcomplemento" class="form-label">Complemento</label>
+                <input @bind="endereco.complemento" class="form-control" type="text" id="txtcomplemento" />
+            </div>
+            <div class="col-8">
+                <label for="txtlocalidade" class="form-label">Localidade</label>
+                <input @bind="endereco.localidade" class="form-control" type="text" id="txtlocalidade" />
+            </div>
+            <div class="col-md-2">
+                <label for="txtUf" class="form-label">Uf</label>
+                <input @bind="endereco.uf" class="form-control" type="text" id="txtuf" />
+            </div>
+            <div class="col-md-2">
+                <label for="txtDDD" class="form-label">DDD</label>
+                <input @bind="endereco.ddd" class="form-control" type="text" id="txtddd" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@code {
+    Endereco endereco { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        endereco = new Endereco();
+    }
+
+    private async Task BuscarEnderecoporcep()
+    {
+        try
+        {
+            endereco = await http.GetFromJsonAsync<Endereco>($"api/Cep/{endereco.cep}");
+        }
+        catch (Exception ex)
+        {
+            toastService.ShowError(ex.Message, "Erro ao buscar cep");
+        }
+    }
+ }
+
+

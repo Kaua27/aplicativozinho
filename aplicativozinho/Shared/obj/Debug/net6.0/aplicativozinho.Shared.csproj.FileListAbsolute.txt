@@ -1,0 +1,12 @@
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\bin\Debug\net6.0\aplicativozinho.Shared.deps.json
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\bin\Debug\net6.0\aplicativozinho.Shared.dll
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\bin\Debug\net6.0\aplicativozinho.Shared.pdb
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.dll
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\refint\aplicativozinho.Shared.dll
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\aplicativozinho.Shared.pdb
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Shared\obj\Debug\net6.0\ref\aplicativozinho.Shared.dll

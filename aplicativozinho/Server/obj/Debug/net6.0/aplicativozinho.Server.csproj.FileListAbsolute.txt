@@ -1,0 +1,8 @@
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.RazorAssemblyInfo.cache
+C:\Users\Aluno\source\repos\aplicativozinho\aplicativozinho\Server\obj\Debug\net6.0\aplicativozinho.Server.RazorAssemblyInfo.cs
